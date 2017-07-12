@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node_modules/.bin/webpack-dev-server --hot"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/kumechang/20170714-cp-workshop/issues"
   },
-  "homepage": "https://github.com/kumechang/20170714-cp-workshop#readme"
+  "homepage": "https://github.com/kumechang/20170714-cp-workshop#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.2.0",
+    "webpack-dev-server": "^2.5.1"
+  }
 }
