@@ -1,7 +1,7 @@
 var $ = require('jQuery');
 
-$(document).ready(function(){
-  $(".btn").click(function(){
+$(document).ready(() => {
+  $(".btn").click(() => {
     $(".target").text('kababu')
   })
 })

@@ -11,3 +11,11 @@ touch src/app.js
 touch dist/index.html
 npm i -D html-webpack-plugin
 touch .gitignore
+
+# step 2
+npm i -D jquery
+
+# step 3
+npm i -D babel-loader
+npm i -D babel-core
+npm i -D es2015
