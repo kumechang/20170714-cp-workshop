@@ -24,6 +24,13 @@ module.exports = {
     hot: true
   },
 
+  plugins: [
+    new HtmlWebpackPlugin({  // Also generate a test.html
+      filename: 'index.html',
+      template: './index.html'
+    })
+  ],
+
   module: {
     loaders: [
       {
